@@ -13,7 +13,8 @@ One-click mod installer for Crimson Desert / R5.
 
 ## Screenshot
 
-![Axiom Launcher](https://raw.githubusercontent.com/YOUR_USERNAME/axiom-launcher/main/screenshot.png)
+<img width="753" height="771" alt="image" src="https://github.com/user-attachments/assets/630ff259-bbc9-40e5-ba71-d9db56fb9bf5" />
+
 
 ## Usage
 
