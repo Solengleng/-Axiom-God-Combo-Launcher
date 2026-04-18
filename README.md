@@ -1,3 +1,20 @@
+<h1 align="center">Axiom God Combo Launcher (v1.0.0)</h1>
+<p align="center">
+  One-click launcher with powerful Axiom God presets and Fat Stacks support for Crimson Desert.
+</p>
+<p align="center">
+  <a href="https://github.com/Solengleng/Axiom-God-Combo-Launcher/releases">
+    <img src="https://img.shields.io/badge/Download_AXIOM_GOD_COMBO_LAUNCHER-v1.0.0-2ea44f?style=for-the-badge" alt="Download Axiom God Combo Launcher">
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square" alt="Windows">
+  <img src="https://img.shields.io/badge/Game-Crimson_Desert-orange?style=flat-square" alt="Crimson Desert">
+  <img src="https://img.shields.io/badge/Presets-4-success?style=flat-square" alt="4 Presets">
+  <img src="https://img.shields.io/badge/Target_Version-v1.0.0-yellow?style=flat-square" alt="v1.0.0">
+  <img src="https://img.shields.io/badge/Languages-EN%20%7C%20中文%20%7C%20RU-lightgrey?style=flat-square" alt="EN | 中文 | RU">
+</p>
+
 # Axiom God Combo Launcher +4 for Crimson Desert (v1.0.0)
 
 Axiom God Combo Launcher with 4 powerful one-click presets for Axiom Bracelet and Fat Stacks customization.
