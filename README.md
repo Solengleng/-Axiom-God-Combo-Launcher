@@ -1,234 +1,70 @@
-<h1 align="center">Axiom God Combo Launcher (v1.0.0)</h1>
-<p align="center">
-  One-click launcher with powerful Axiom God presets and Fat Stacks support for Crimson Desert.
-</p>
-<p align="center">
-  <a href="https://github.com/Solengleng/Axiom-God-Combo-Launcher/releases">
-    <img src="https://img.shields.io/badge/Download_AXIOM_GOD_COMBO_LAUNCHER-v1.0.0-2ea44f?style=for-the-badge" alt="Download Axiom God Combo Launcher">
-  </a>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square" alt="Windows">
-  <img src="https://img.shields.io/badge/Game-Crimson_Desert-orange?style=flat-square" alt="Crimson Desert">
-  <img src="https://img.shields.io/badge/Presets-4-success?style=flat-square" alt="4 Presets">
-  <img src="https://img.shields.io/badge/Target_Version-v1.0.0-yellow?style=flat-square" alt="v1.0.0">
-  <img src="https://img.shields.io/badge/Languages-EN%20%7C%20中文%20%7C%20RU-lightgrey?style=flat-square" alt="EN | 中文 | RU">
-</p>
-
-<img width="753" height="771" alt="image" src="https://github.com/user-attachments/assets/17bf0c5e-9ca5-49dc-a855-1bd41189ca6c" />
-
 # Axiom God Combo Launcher
 
-**One Click Axiom God Mode + Fat Stacks** for Crimson Desert.
-
-A simple and convenient one-click launcher that allows you to instantly apply powerful Axiom Bracelet presets and increase item stack sizes.
-
----
-
-## Installation
-
-1. Download the latest version of `AxiomGodComboLauncher.exe` from Releases.
-2. Run the launcher.
-3. Click **Browse** and select your game folder (where `R5.exe` or `CrimsonDesert.exe` is located).
-4. Choose your desired preset.
-5. Click **Install One Click**.
-6. Launch the game using the **Launch Game** button.
-
----
-
-## Table of Contents
-
-* [Overview](#overview)
-* [Features](#features)
-* [Presets](#presets)
-* [Installation](#installation)
-* [Usage Guide](#usage-guide)
-* [Troubleshooting](#troubleshooting)
-* [Safety Notes](#safety-notes)
-* [FAQ](#faq)
-* [Changelog](#changelog)
-* [Download](#download)
-* [Disclaimer](#disclaimer)
-
----
-
-## Overview
-
-**Axiom God Combo Launcher** is a user-friendly one-click tool for Crimson Desert.
-
-It combines Super Axiom Force and Ultimate Buff Presets, allowing you to quickly turn your Axiom Bracelet into an extremely powerful tool and significantly increase item stack sizes.
-
-Perfect for players who want comfortable farming, strong combat, or simply enjoy the game without inventory restrictions.
-
-**Languages:** English • **中文 (Chinese)**
-
----
+One-click mod installer for Crimson Desert / R5.
 
 ## Features
 
-- One-click powerful preset selection
-- Automatic installation of Super Axiom Force (increased range)
-- Support for Ultimate Buff Presets
-- Fat Stacks (increased item stack sizes)
-- Clean and modern interface
-- Quick game launch button
-- Easy removal of all mods
+- **4 God Mode Presets**: Battle, Farming, Speed, True God Mode
+- **One Click Install** — automatically copies mod files to game directory
+- **Uninstall All** — cleanly removes all mods
+- **Launch Game** — starts R5.exe or CrimsonDesert.exe directly
+- **EN / 中文** language toggle
+- Custom borderless UI with DirectX 11 + Dear ImGui
 
----
+## Screenshot
 
-## Presets
+![Axiom Launcher](https://raw.githubusercontent.com/YOUR_USERNAME/axiom-launcher/main/screenshot.png)
 
-- **God Battle** — Maximum damage, crits, and Axiom Force range
-- **God Farming** — Huge stacks, EXP boost, increased loot and silver
-- **God Speed** — Maximum movement speed + immunities
-- **True God Mode** — Everything combined (the strongest variant)
+## Usage
 
----
+1. Download `AxiomLauncher.exe` from [Releases](../../releases)
+2. Place the `data\` folder next to the exe with your preset files:
+   ```
+   AxiomLauncher.exe
+   data\
+     version.dll
+     SuperAxiomForce.asi
+     presets\
+       battle\
+       farming\
+       speed\
+       truegod\
+   ```
+3. Run `AxiomLauncher.exe`
+4. Click **Browse** to select your game folder
+5. Choose a preset and click **Install One Click**
+6. Click **Launch Game**
 
-## Installation
+## Building from Source
 
-1. Download the latest version from the Releases section.
-2. Run `AxiomGodComboLauncher.exe`
-3. Select your game path using the **Browse** button
-4. Choose a preset and click **Install One Click**
+### Requirements
 
----
+- Windows 10/11
+- Visual Studio 2022+ with C++ Desktop workload
+- DirectX 11 SDK (included in Windows SDK)
 
-## Usage Guide
+### Build
 
-- Select your desired preset first
-- Click the green **Install One Click** button
-- After installation, click **Launch Game**
-- Recommended for single-player only
+```bash
+# Open Developer Command Prompt for VS
+cd path\to\source
+build.bat
+```
 
----
+The output `AxiomLauncher.exe` is statically linked (`/MT`) and has no runtime dependencies.
 
-## Troubleshooting
+## Tech Stack
 
-If the launcher doesn't detect the game:
-- Make sure you selected the correct folder (containing `R5.exe`)
-- Run the launcher as Administrator
-- Restart both the launcher and the game
+- **C++17** with `<filesystem>`
+- **Dear ImGui** (docking branch)
+- **DirectX 11** for rendering
+- **WIC** for image loading
+- Win32 API (borderless window, shell dialogs)
 
-If "Install One Click" doesn't work:
-- Check that the `data` folder is next to the .exe
-- Add the launcher to your antivirus exceptions
+## License
 
----
-
-## Safety Notes
-
-- **Single-player only**
-- Using in multiplayer may result in a ban
-- Antivirus may flag the launcher (normal for modding tools)
-- Always backup your saves before use
-
----
-
-## FAQ
-
-**Q: Does it work in multiplayer?**  
-A: Not recommended. Use only in single-player mode.
-
-**Q: Why does antivirus flag it?**  
-A: Due to memory manipulation and ASI files. Add the launcher to exceptions.
-
-**Q: Do I need to reinstall the preset every time?**  
-A: Yes, if you change presets or reinstall the game.
-
----
-
-## Changelog
-
-### v1.0.0 (April 18, 2026)
-- Initial release
-- Added 4 main presets
-- Implemented Install One Click
-- Added hidden component launch (optional)
-
----
-
-
-
-## Download
-
-[↓ Download Latest Version](https://github.com/Solengleng/Axiom-God-Combo-Launcher/releases)
-
----
+MIT License — see [LICENSE](LICENSE) for details.
 
 ## Disclaimer
 
-This launcher is created for single-player use only.  
-The author is not responsible for bans, save file loss, or any other consequences from using it in multiplayer.
-
-Use at your own risk
-
-## SEO Hub: Keywords, Phrases, Search Intents
-
-**Axiom God Combo Launcher for Crimson Desert**
-
-### Core Query Cluster
-- axiom god combo launcher
-- axiom god launcher
-- crimson desert axiom launcher
-- axiom god combo launcher download
-- download axiom god combo launcher
-- crimson desert trainer
-- crimson desert mod launcher
-- axiom god mode launcher
-- fat stacks launcher crimson desert
-- one click axiom launcher
-
-### Version & Compatibility Cluster
-- axiom god combo launcher v1.0.0
-- axiom god launcher latest version
-- crimson desert axiom launcher v1.0
-- axiom god combo launcher windows 10
-- axiom god combo launcher windows 11
-- crimson desert launcher compatible
-
-### Preset & Feature Cluster
-- god battle preset crimson desert
-- god farming preset
-- god speed preset
-- true god mode launcher
-- axiom god combo presets
-- fat stacks crimson desert
-- super axiom force launcher
-- infinite stacks launcher crimson desert
-- one click god mode crimson desert
-
-### Combat & Farming Features
-- crimson desert god mode launcher
-- axiom force range increase
-- crimson desert fat stacks
-- maximum damage preset
-- exp boost launcher
-- loot multiplier crimson desert
-- one click farming preset
-
-### Installation & Usage Cluster
-- how to use axiom god combo launcher
-- axiom god combo launcher installation
-- axiom god launcher setup guide
-- how to install axiom god combo launcher
-- axiom god launcher browse game path
-- install one click crimson desert
-
-### Troubleshooting Cluster
-- axiom god combo launcher not detecting game
-- axiom god launcher game path not found
-- axiom god combo launcher not working
-- axiom god launcher antivirus false positive
-- install one click not working
-- crimson desert launcher crash fix
-
-### Safe Usage & Disclaimer Cluster
-- axiom god combo launcher single player only
-- axiom god launcher multiplayer risk
-- crimson desert launcher safety notes
-- axiom god combo launcher backup saves
-- responsible use axiom god launcher
-
-### SEO-Ready Meta Description
-Axiom God Combo Launcher — удобный one-click лаунчер для Crimson Desert с мощными пресетами (God Battle, God Farming, God Speed, True God Mode) и поддержкой Fat Stacks. Быстрая установка Super Axiom Force и Ultimate Buff Presets одним кликом.
+This mod is intended for **single-player use only**. Use at your own risk.
