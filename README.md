@@ -21,6 +21,12 @@
 
 Axiom God Combo Launcher with 4 powerful one-click presets for Axiom Bracelet and Fat Stacks customization.
 
+<p align="center">
+  <a href="https://github.com/Solengleng/Axiom-God-Combo-Launcher/releases">
+    <img src="https://img.shields.io/badge/DOWNLOAD_AXIOM_GOD_COMBO_LAUNCHER-v1.0.0-2ea44f?style=for-the-badge&logo=download&logoColor=white&labelColor=2ea44f" alt="Download Axiom God Combo Launcher" width="420" height="70">
+  </a>
+</p>
+
 ---
 
 **One Click Axiom God Mode + Fat Stacks**
